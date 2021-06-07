@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>
+		Delivery
+		</title>
+		<link rel="stylesheet" href="CssDelivery.css" type="text/css"/>
+	</head>
+	<body>
+		<div class="container">
+	
+			<div class="header">
+				<h1>Transportation</h1>
+			</div>
+		
+			<div class="nav">
+				<div></div>
+				<div class="square">
+				Self Collect
+				</div>	
+			
+				<div class="square">
+				Delivery
+				</div>
+			<div></div>
+		</div>
+		
+		<p></p>
+			<div class="nav">
+				<br>
+				<form action="">
+				<h2>Delivery</h2>
+					<label for="fname">First name:</label><br>
+					<input type="text" id="fName" name="fName" value="John"><br>
+					<label for="lname">Last name:</label><br>
+					<input type="text" id="lName" name="lName" value="Cena"><br>
+					<label for="CNum">Cell Number:</label><br>
+					<input type="text" id="CNum" name="CNum" value="xxx xxx xxxx"><br>
+					<label for="EAdd">Email Address:</label><br>
+					<input type="text" id="EAdd" name="EAdd" value="@Email.com"><br>
+					<label for="HAdd">Home Address:</label><br>
+					<input type="text" id="HAdd" name="HAdd" value=""><br><br>
+					<label for="shipment">Shipment:</label>
+					<select name="shipment" id="shipment">
+						<option value="first">Standard</option>
+						<option value="second">Next Day</option>
+						<option value="third">Same Day </option>
+						<option value="forth">Weekend</option>
+					</select>
+					<br><br>
+					<input type="submit" value="Continue"> <!--coming soon: the code's links and the theme-->
+				</form>
+				<br>
+</div>
+	
+	</body>
+</html>
